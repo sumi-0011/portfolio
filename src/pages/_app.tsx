@@ -7,38 +7,38 @@ import type { AppProps } from "next/app";
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
 const DEFAULT_SEO = {
-  title: "홍길동 | Front-End Dev",
-  description: "안녕하세요, 프론트엔드 개발자 홍길동입니다.",
-  canonical: "https://www.naver.com/",
+  title: "변수미 | Front-End Dev",
+  description: "안녕하세요, 프론트엔드 개발자 변수미입니다.",
+  canonical: "https://github.com/sumi-0011",
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://www.naver.com/",
-    title: "홍길동 | Front-End Dev",
-    site_name: "홍길동 | Front-End Dev",
+    url: "https://github.com/sumi-0011",
+    title: "변수미 | Front-End Dev",
+    site_name: "변수미 | Front-End Dev",
     images: [
       {
-        url: "/share.png",
-        width: 285,
-        height: 167,
-        alt: "홍길동 | Front-End Dev",
+        url: "/emoji.png",
+        width: 200,
+        height: 200,
+        alt: "변수미 | Front-End Dev",
       },
     ],
   },
   additionalLinkTags: [
     {
       rel: "icon",
-      href: "/favicon.ico",
+      href: "/emoji.png",
     },
   ],
   additionalMetaTags: [
     {
       name: "application-name",
-      content: "홍길동 | Front-End Dev",
+      content: "변수미 | Front-End Dev",
     },
     {
       name: "msapplication-tooltip",
-      content: "홍길동 | Front-End Dev",
+      content: "변수미 | Front-End Dev",
     },
     {
       name: "viewport",
