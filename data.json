@@ -1,82 +1,139 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "끊임없이 도전하는 프론트엔드 개발자"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "변수미",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "selina2000@naver.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/sumi-0011" },
+      { "id": 2, "name": "Blog", "href": "https://velog.io/@sumi-0011" }
     ]
   },
 
   "workExperience": [
     {
       "id": 0,
-      "name": "커피프린스 1호점",
+      "name": "CODExBridge",
       "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
+      "period": ["2022. 06", "2022. 08"]
     },
     {
       "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
+      "name": "(주)빅픽처랩",
+      "position": "Front-end Engineer",
+      "period": ["2022. 09", "2022. 11"]
     }
   ],
 
   "project": [
     {
-      "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
+      "id": 4,
+      "name": "took",
+      "description": "쓰레기통 위치 탐색 어플리케이션",
+      "repoUrl": "https://github.com/sumi-0011/took",
       "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "period": ["2022. 06", "2022. 11"],
+      "stack": ["Gatsby.js", "TypeScript", "Lighthouse"]
+    },
+    {
+      "id": 3,
+      "name": "HPNY-2023",
+      "description": "신년메시지 주고받는 사이트를 SPA로 만들어보기 numble 챌린지",
+      "repoUrl": "https://github.com/probrainteam/probrain",
+      "isTeam": false,
+      "period": ["2022. 01", "2022. 01"],
+      "stack": ["Gatsby.js", "TypeScript", "Lighthouse"]
+    },
+
+    {
+      "id": 2,
+      "name": "Probrain 소개페이지",
+      "description": "충남대학교 컴퓨터융합학부 동아리 Probrain의 소개페이지입니다.\n Probrain 동아리와 동아리 내에서 진행하는 Probrain junior 스터디 그룹을 소개하는 정적 페이지입니다.",
+      "webUrl": "https://probrain.club/",
+      "repoUrl": "https://github.com/probrainteam/probrain",
+      "isTeam": true,
+      "period": ["2022. 01", "2022. 02"],
+      "stack": ["Gatsby.js", "TypeScript", "Lighthouse"]
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
-      "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "name": "Tamago",
+      "description": "개발자에게 중요한 역량 중에 하나는 타자 속도입니다. \n'나의 타자속도를 객관적으로 측정해보고, 백준과 같이 나의 수준을 다른 사람들과 공유하는 서비스가 있으면 재밌겠다'라는 생각에서 출발하였습니다.",
+      "webUrl": "https://typingmastergo.site/",
+      "repoUrl": "https://github.com/msdio/Tamago",
+      "isTeam": true,
+      "period": ["2023. 01", "2023. 05"],
+      "stack": ["Next.js", "TypeScript", "styled-components", "AWS S3"]
+    },
+    {
+      "id": 0,
+      "name": "PREAT",
+      "description": "오직 나만을 위한 맛집 검색 내 입맛대로 Preat\n사람들의 입맛 정보를 수집/가공하여 각자의 취향에 맞는 private한 정보를 제공하는  맛집 검색 서비스",
+      "webUrl": "https://preat.dev/",
+      "repoUrl": "https://github.com/TEAM-PREAT",
+      "isTeam": true,
+      "period": ["2023. 02", "진행중"],
+      "stack": ["Next.js", "TypeScript", "styled-components", "jotai", "AWS S3"],
+      "imgSrc": "/images/project/0.svg"
+    },
+    {
+      "id": 5,
+      "name": "na lab",
+      "description": "동료의 익명 피드백으로 완성시키는 나의 커리어 브랜딩 서비스",
+      "webUrl": "https://na-lab.pages.dev/",
+      "repoUrl": "https://github.com/depromeet/na-lab-client",
+      "isTeam": true,
+      "period": ["2023. 05", "진행중"],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "emotion.js",
+        "Cloudflare pages",
+        "framer motion",
+        "vitest",
+        "GA",
+        "Hotjar",
+        "Mixpanel"
+      ],
+      "imgSrc": "/images/project/0.svg"
     }
   ],
 
   "activity": [
     {
-      "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
+      "id": 2,
+      "name": "테오의 스프린트 14기 ",
+      "period": ["2023. 02", "2023. 02"],
+      "description": "시니어 개발자 테오가 주최하는 5일 동안의 구글 스프린트 활동"
     },
     {
       "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
+      "name": "Probrain 동아리",
+      "period": ["2019. 04", "2023. 02"],
+      "description": "충남대학교 교내 웹 동아리원. 2021~2022의 2년간 임원 활동"
+    },
+    {
+      "id": 3,
+      "name": "Numble 챌린지",
+      "period": ["2023. 01", "2023. 01"],
+      "description": "따라하기 식의 강의가 아닌,본인이 직접 고민하며 결과물을 만들어가는 과정"
+    },
+    {
+      "id": 0,
+      "name": "디프만 13기",
+      "period": ["2023. 04", "진행중"],
+      "description": "'디자이너와 프로그래머가 만났을 때', 16주에 걸쳐 서비스 기획부터 론칭까지 함께 경험하는 성장추구형 커뮤니티에서 프론트엔드 개발자로 활동"
     }
   ],
 
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "충남대학교",
+      "period": ["2019. 03", "2023. 02"],
+      "description": "컴퓨터공학과 전공"
     }
   ],
 
