@@ -155,10 +155,24 @@
   "award": [
     {
       "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
+      "name": "주니어 창의작품 경진대회 장려상",
+      "date": "2022. 6. 8",
+      "organizer": "충남대학교 컴퓨터공학과",
+      "description": "SCRAP 프로젝트로 참가하여 장려상 수상"
+    },
+    {
+      "id": 1,
+      "name": "SPARCS 2023 StartUp Hackathon 우수상 ",
+      "date": "2023. 1. 29",
+      "organizer": "SPARCS",
+      "description": "“이것도 나고이것도 나야.” METAMON 서비스로 우수상 수상"
+    },
+    {
+      "id": 2,
+      "name": "2023 덕성 5K(OK)! Plus O2O 창업경진대회 대상",
+      "date": "2022. 4. 26",
+      "organizer": "덕성여자대학교",
+      "description": "”오직 나만을 위한 맛집 검색” PREAT 프로젝트로 대상 수상"
     }
   ]
 }
