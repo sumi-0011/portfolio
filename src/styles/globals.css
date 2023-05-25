@@ -33,7 +33,7 @@
 
   .markdown h3,
   .markdown h4 {
-    @apply pt-1.5;
+    @apply pt-2;
   }
 
   strong {
