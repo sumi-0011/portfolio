@@ -1,7 +1,3 @@
-- Hoo-ooh-ooh-ooh
-- Hoo-ooh-ooh-ooh
-- Stay in the middle
-- Like you a little
-- Don't want no riddle
-- 말해줘 say it back, oh, say it ditto
-- 아침은 너무 멀어 so say it ditto
+안녕하세요. '같이 일하고 싶은 개발자'가 되려고 노력하는 신입 프론트엔드 개발자 변수미입니다.  
+이를 위해 다양한 프로젝트와 현업을 도전/경험하며 개발 능력을 성장시켜왔습니다.   
+또한, 그 과정 속에서 사람들과 원활하게 소통하는 법을 고민하고 실천해왔습니다. 
