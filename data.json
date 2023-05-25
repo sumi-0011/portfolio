@@ -140,14 +140,14 @@
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "SQLD",
+      "date": "2021. 6. 8",
+      "organizer": "한국데이터산업진흥원"
     },
     {
       "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
+      "name": "TOEIC Speaking IM",
+      "date": "2022. 12. 25",
       "organizer": "ETS"
     }
   ],
