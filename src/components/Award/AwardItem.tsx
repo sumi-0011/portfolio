@@ -6,9 +6,11 @@ const AwardItem = ({ name, date, organizer, description }: AwardProps) => {
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
           <h3>{name}</h3>
-          <span>{date}</span>
+          <div>
+            <span>{organizer}</span> / <span>{date}</span>
+          </div>
         </div>
-        <span>{organizer}</span>
+
         <span className="whitespace-pre-wrap">{`${description}`}</span>
       </div>
     </div>
