@@ -35,7 +35,7 @@
       "repoUrl": "https://github.com/sumi-0011/took",
       "isTeam": true,
       "period": ["2022. 06", "2022. 11"],
-      "stack": ["Gatsby.js", "TypeScript", "Lighthouse"]
+      "stack": ["React Native", "TypeScript", "Recoil", "FireBase"]
     },
     {
       "id": 3,
@@ -44,7 +44,7 @@
       "repoUrl": "https://github.com/probrainteam/probrain",
       "isTeam": false,
       "period": ["2022. 01", "2022. 01"],
-      "stack": ["Gatsby.js", "TypeScript", "Lighthouse"]
+      "stack": ["Vanilla JS", "AWS S3"]
     },
 
     {
@@ -81,7 +81,7 @@
     {
       "id": 5,
       "name": "na lab",
-      "description": "동료의 익명 피드백으로 완성시키는 나의 커리어 브랜딩 서비스",
+      "description": "동료의 익명 피드백으로 자신의 성향과 장단점 등을 파악해요.\n나의 강점은 살리고, 약점은 보완하기 위한 익명의 피드백 수집 및 통계 서비스.",
       "webUrl": "https://na-lab.pages.dev/",
       "repoUrl": "https://github.com/depromeet/na-lab-client",
       "isTeam": true,
