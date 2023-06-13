@@ -29,15 +29,6 @@
 
   "project": [
     {
-      "id": 4,
-      "name": "took",
-      "description": "쓰레기통 위치 탐색 어플리케이션",
-      "repoUrl": "https://github.com/sumi-0011/took",
-      "isTeam": true,
-      "period": ["2022. 06", "2022. 11"],
-      "stack": ["React Native", "TypeScript", "Recoil", "FireBase"]
-    },
-    {
       "id": 3,
       "name": "HPNY-2023",
       "description": "신년메시지 주고받는 사이트를 SPA로 만들어보기 numble 챌린지",
@@ -47,16 +38,6 @@
       "stack": ["Vanilla JS", "AWS S3"]
     },
 
-    {
-      "id": 2,
-      "name": "Probrain 소개페이지",
-      "description": "충남대학교 컴퓨터융합학부 동아리 Probrain의 소개페이지입니다.\n Probrain 동아리와 동아리 내에서 진행하는 Probrain junior 스터디 그룹을 소개하는 정적 페이지입니다.",
-      "webUrl": "https://probrain.club/",
-      "repoUrl": "https://github.com/probrainteam/probrain",
-      "isTeam": true,
-      "period": ["2022. 01", "2022. 02"],
-      "stack": ["Gatsby.js", "TypeScript", "Lighthouse"]
-    },
     {
       "id": 1,
       "name": "Tamago",
