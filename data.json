@@ -155,5 +155,39 @@
       "organizer": "덕성여자대학교",
       "description": "”오직 나만을 위한 맛집 검색” PREAT 프로젝트로 대상 수상"
     }
+  ],
+  "openSource": [
+    {
+      "id": 0,
+      "name": "React Docs Translation",
+      "status": "merged",
+      "date": "2023.05.15",
+      "description": "리액트 공식문서 페이지 번역",
+      "organizer": "@reactjs/ko.react.dev",
+      "links": [
+        {
+          "name": "merged된 PR",
+          "url": "https://github.com/reactjs/ko.react.dev/pull/646"
+        },
+        {
+          "name": "리액트 공식 문서 페이지",
+          "url": "https://ko.reactjs.org/"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "name": "Chakra UI Ark Docs Style Bug Fix",
+      "status": "merged",
+      "date": "2023.05.6",
+      "description": "ark 공식문서 스타일 버그 수정",
+      "organizer": "chakra-ui/ark",
+      "links": [
+        {
+          "name": "merged된 PR",
+          "url": "https://github.com/chakra-ui/ark/pulls?q=is%3Apr+author%3Asumi-0011+is%3Aclosed"
+        }
+      ]
+    }
   ]
 }

@@ -1,12 +1,11 @@
 import { OpenSourceProps } from "@/types";
 
-const AwardItem = ({ name, date, description, status, links }: OpenSourceProps) => {
-  console.log("name, date, description : ", name, date, description);
+const OpenSourceItem = ({ name, date, description, status, links }: OpenSourceProps) => {
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
       <div className="flex flex-col gap-2">
         <div className="flex flex-col">
-          <h3>{name} </h3>
+          <h3>{name}</h3>
           <div className="flex  gap-2 items-center mt-2 mb-1	">
             {status === "merged" && <MergedTag />}
             <span>{date}</span>
@@ -16,7 +15,7 @@ const AwardItem = ({ name, date, description, status, links }: OpenSourceProps) 
           </div> */}
         </div>
 
-        <span className="whitespace-pre-wrap">{`${description}`}</span>
+        {description && <span className="whitespace-pre-wrap">{`${description}`}</span>}
 
         <ul>
           {links?.map((link) => (
@@ -30,7 +29,7 @@ const AwardItem = ({ name, date, description, status, links }: OpenSourceProps) 
   );
 };
 
-export default AwardItem;
+export default OpenSourceItem;
 
 const MergedTag = () => {
   return (

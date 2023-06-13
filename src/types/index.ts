@@ -45,7 +45,7 @@ export interface OpenSourceProps {
   }[];
   date: string;
   organizer: string;
-  description: string;
+  description?: string;
   status: "open" | "merged" | "closed";
 }
 
