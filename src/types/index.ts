@@ -36,6 +36,19 @@ export interface AwardProps {
   description: string;
 }
 
+export interface OpenSourceProps {
+  id: number;
+  name: string;
+  links: {
+    name: string;
+    url: string;
+  }[];
+  date: string;
+  organizer: string;
+  description: string;
+  status: "open" | "merged" | "closed";
+}
+
 export interface DataProps {
   resumeTitle: {
     title: string;
@@ -62,4 +75,5 @@ export interface DataProps {
     organizer: string;
   }[];
   award: AwardProps[];
+  openSource: OpenSourceProps[];
 }
