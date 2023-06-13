@@ -70,7 +70,7 @@
     {
       "id": 0,
       "name": "PREAT",
-      "description": "오직 나만을 위한 맛집 검색 내 입맛대로 Preat\n사람들의 입맛 정보를 수집/가공하여 각자의 취향에 맞는 private한 정보를 제공하는  맛집 검색 서비스",
+      "description": "오직 나만을 위한 맛집 검색 내 입맛대로 Preat\n남들의 후기가 아닌 내 입맛을 고려해서 식당을 추천하는 맛집 검색 서비스",
       "webUrl": "https://preat.dev/",
       "repoUrl": "https://github.com/TEAM-PREAT",
       "isTeam": true,
