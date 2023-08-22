@@ -154,6 +154,20 @@
       "date": "2022. 4. 26",
       "organizer": "덕성여자대학교",
       "description": "”오직 나만을 위한 맛집 검색” PREAT 프로젝트로 대상 수상"
+    },
+    {
+      "id": 3,
+      "name": "Depromeet 13th 대상",
+      "date": "2022. 7. 22",
+      "organizer": "Depromeet",
+      "description": "IT 연합 동아리 Depromeet 13기에서 ”Na lab” 프로젝트로 대상 수상"
+    },
+    {
+      "id": 4,
+      "name": "Junction Asia 2023 Track 2nd winner",
+      "date": "2022. 8. 20",
+      "organizer": "Junction Asia",
+      "description": "”autoWaste” 프로젝트로 JAKA track 2nd winner 수상"
     }
   ],
   "openSource": [
