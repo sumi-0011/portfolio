@@ -202,6 +202,20 @@
           "url": "https://github.com/chakra-ui/ark/pulls?q=is%3Apr+author%3Asumi-0011+is%3Aclosed"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Next.js Docs Translation",
+      "status": "merged",
+      "date": "2023.06.23",
+      "description": "Next.js 공식문서 페이지 번역, 01-installation 담당",
+      "organizer": "Nextjs.kr",
+      "links": [
+        {
+          "name": "merged된 PR",
+          "url": "https://github.com/Nextjs-kr/Nextjs.kr/pull/179"
+        }
+      ]
     }
   ]
 }
