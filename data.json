@@ -17,13 +17,13 @@
       "id": 0,
       "name": "CODExBridge",
       "position": "Front-end Engineer",
-      "period": ["2022. 06", "2022. 08"]
+      "period": ["2022.06", "2022.08"]
     },
     {
       "id": 1,
       "name": "(주)빅픽처랩",
       "position": "Front-end Engineer",
-      "period": ["2022. 09", "2022. 11"]
+      "period": ["2022.09", "2022. 11"]
     }
   ],
 
@@ -34,7 +34,7 @@
       "description": "신년메시지 주고받는 사이트를 SPA로 만들어보기 numble 챌린지",
       "repoUrl": "https://github.com/probrainteam/probrain",
       "isTeam": false,
-      "period": ["2022. 01", "2022. 01"],
+      "period": ["2022.01", "2022.01"],
       "stack": ["Vanilla JS", "AWS S3"]
     },
 
@@ -45,7 +45,7 @@
       "webUrl": "https://typingmastergo.site/",
       "repoUrl": "https://github.com/msdio/Tamago",
       "isTeam": true,
-      "period": ["2023. 01", "2023. 05"],
+      "period": ["2023.01", "2023.05"],
       "stack": ["Next.js", "TypeScript", "styled-components", "AWS S3"]
     },
     {
@@ -55,7 +55,7 @@
       "webUrl": "https://preat.dev/",
       "repoUrl": "https://github.com/TEAM-PREAT",
       "isTeam": true,
-      "period": ["2023. 02", "진행중"],
+      "period": ["2023.02", "진행중"],
       "stack": ["Next.js", "TypeScript", "styled-components", "jotai", "AWS S3"],
       "imgSrc": "/images/project/0.svg"
     },
@@ -66,7 +66,7 @@
       "webUrl": "https://www.nalab.me/",
       "repoUrl": "https://github.com/depromeet/na-lab-client",
       "isTeam": true,
-      "period": ["2023. 05", "진행중"],
+      "period": ["2023.05", "진행중"],
       "stack": [
         "Next.js",
         "TypeScript",
@@ -86,31 +86,31 @@
     {
       "id": 2,
       "name": "테오의 스프린트 14기 ",
-      "period": ["2023. 02", "2023. 02"],
+      "period": ["2023.02", "2023.02"],
       "description": "시니어 개발자 테오가 주최하는 5일 동안의 구글 스프린트 활동"
     },
     {
       "id": 1,
       "name": "Probrain 동아리",
-      "period": ["2019. 04", "2023. 02"],
+      "period": ["2019.04", "2023.02"],
       "description": "충남대학교 교내 웹 동아리원. 2021~2022의 2년간 임원 활동"
     },
     {
       "id": 3,
       "name": "Numble 챌린지",
-      "period": ["2023. 01", "2023. 01"],
+      "period": ["2023.01", "2023.01"],
       "description": "따라하기 식의 강의가 아닌,본인이 직접 고민하며 결과물을 만들어가는 과정"
     },
     {
       "id": 0,
       "name": "디프만 13기",
-      "period": ["2023. 04", "2023.07"],
+      "period": ["2023.04", "2023.07"],
       "description": "'디자이너와 프로그래머가 만났을 때', 16주에 걸쳐 서비스 기획부터 론칭까지 함께 경험하는 성장추구형 커뮤니티에서 프론트엔드 개발자로 활동\n디프만 13기에서 대상 수상 \n빠른 1차 MVP 배포 후 2차 MVP 배포를 통해 정식 출시 3일 만에 사용자 1300명 달성"
     },
     {
       "id": 5,
       "name": "디프만 14기",
-      "period": ["2023. 08", "진행중"],
+      "period": ["2023.08", "진행중"],
       "description": "디프만 14기 인사부 운영진으로 활동, 14기 인원 모집 및 면접 진행, 디프만 14기 웹 페이지 개발"
     }
   ],
@@ -119,7 +119,7 @@
     {
       "id": 0,
       "name": "충남대학교",
-      "period": ["2019. 03", "2023. 02"],
+      "period": ["2019.03", "2023.02"],
       "description": "컴퓨터공학과 전공"
     }
   ],
@@ -128,13 +128,13 @@
     {
       "id": 0,
       "name": "SQLD",
-      "date": "2021. 6. 8",
+      "date": "2021.06.08",
       "organizer": "한국데이터산업진흥원"
     },
     {
       "id": 1,
       "name": "TOEIC Speaking IM3",
-      "date": "2022. 12. 25",
+      "date": "2022.12.25",
       "organizer": "ETS"
     }
   ],
