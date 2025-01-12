@@ -4,6 +4,7 @@ import WorkExperienceItem from "./WorkExperienceItem";
 import { DataProps } from "@/types";
 
 const WorkExperience = ({ workExperience }: Pick<DataProps, "workExperience">) => {
+  console.log("workExperience: ", workExperience);
   return (
     <div>
       <SectionTitle>Work Experience</SectionTitle>

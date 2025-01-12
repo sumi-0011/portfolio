@@ -14,53 +14,27 @@
 
   "workExperience": [
     {
-      "id": 0,
-      "name": "CODExBridge",
-      "position": "Front-end Engineer",
-      "period": ["2022.06", "2022.08"]
-    },
-    {
-      "id": 1,
-      "name": "(주)빅픽처랩",
-      "position": "Front-end Engineer",
-      "period": ["2022.09", "2022. 11"]
+      "id": "ADENA",
+      "name": "(주)아데나소프트웨어",
+      "position": "페이먼츠 개발팀 / 프론트엔드 개발자",
+      "period": ["2023.09", "재직중 / 1년 3개월"]
     }
   ],
 
   "project": [
     {
-      "id": 3,
-      "name": "HPNY-2023",
-      "description": "신년메시지 주고받는 사이트를 SPA로 만들어보기 numble 챌린지",
-      "repoUrl": "https://github.com/probrainteam/probrain",
-      "isTeam": false,
-      "period": ["2022.01", "2022.01"],
-      "stack": ["Vanilla JS", "AWS S3"]
-    },
-
-    {
-      "id": 1,
-      "name": "Tamago",
-      "description": "개발자에게 중요한 역량 중에 하나는 타자 속도입니다. \n'나의 타자속도를 객관적으로 측정해보고, 백준과 같이 나의 수준을 다른 사람들과 공유하는 서비스가 있으면 재밌겠다'라는 생각에서 출발하였습니다.",
-      "webUrl": "https://typingmastergo.site/",
-      "repoUrl": "https://github.com/msdio/Tamago",
+      "id": "10MM",
+      "name": "10MM(십분만)",
+      "description": "하루 10분으로 시작하는 습관",
+      "webUrl": "",
+      "repoUrl": "https://github.com/depromeet/10mm-client-web",
       "isTeam": true,
-      "period": ["2023.01", "2023.05"],
-      "stack": ["Next.js", "TypeScript", "styled-components", "AWS S3"]
+      "period": ["2023.09", "2024.02"],
+      "stack": ["Next.js", "TypeScript", "Framer motion", "Jest", "Panda Css"],
+      "imgSrc": "/images/project/10MM.webp"
     },
     {
-      "id": 0,
-      "name": "PREAT",
-      "description": "오직 나만을 위한 맛집 검색 내 입맛대로 Preat\n남들의 후기가 아닌 내 입맛을 고려해서 식당을 추천하는 맛집 검색 서비스",
-      "webUrl": "https://preat.dev/",
-      "repoUrl": "https://github.com/TEAM-PREAT",
-      "isTeam": true,
-      "period": ["2023.02", "진행중"],
-      "stack": ["Next.js", "TypeScript", "styled-components", "jotai", "AWS S3"],
-      "imgSrc": "/images/project/0.svg"
-    },
-    {
-      "id": 5,
+      "id": "NA_LAB",
       "name": "na lab",
       "description": "동료의 익명 피드백으로 자신의 성향과 장단점 등을 파악해요.\n나의 강점은 살리고, 약점은 보완하기 위한 익명의 피드백 수집 및 통계 서비스.",
       "webUrl": "https://www.nalab.me/",
@@ -79,6 +53,28 @@
         "Mixpanel"
       ],
       "imgSrc": "/images/project/0.svg"
+    },
+    {
+      "id": "GIT_ANIMALS",
+      "name": "Git animals",
+      "description": "깃허브 활동으로 나만의 귀여운 펫을 키워보세요. 매일 커밋하고 PR을 올리면서 펫이 성장하고 레벨업하는 재미를 느낄 수 있습니다.",
+      "webUrl": "https://www.gitanimals.org/en_US",
+      "repoUrl": "https://github.com/git-goods/gitanimals",
+      "isTeam": true,
+      "period": ["2023.05", "진행중"],
+      "stack": ["Next.js", "TypeScript", "Panda css"],
+      "imgSrc": "/images/project/GIT_ANIMALS.webp"
+    },
+    {
+      "id": "THUMBNAIL",
+      "name": "Thumbnail Maker",
+      "description": "블로그 포스트 썸네일을 자동으로 생성해주는 서비스",
+      "webUrl": "https://thumbnail.ssumi.space/",
+      "repoUrl": "https://github.com/sumi-0011/Thumbnail-Maker",
+      "isTeam": false,
+      "period": ["2025.12", "진행중"],
+      "stack": ["tailwind css", "shadcn/ui", "supabase"],
+      "imgSrc": "/images/project/THUMNAIL.png"
     }
   ],
 
@@ -87,19 +83,15 @@
       "id": 2,
       "name": "테오의 스프린트 14기 ",
       "period": ["2023.02", "2023.02"],
-      "description": "시니어 개발자 테오가 주최하는 5일 동안의 구글 스프린트 활동"
+      "description": "시니어 개발자 테오가 주최하는 5일 동안의 구글 스프린트 활동",
+      "isMore": true
     },
     {
       "id": 1,
       "name": "Probrain 동아리",
       "period": ["2019.04", "2023.02"],
-      "description": "충남대학교 교내 웹 동아리원. 2021~2022의 2년간 임원 활동"
-    },
-    {
-      "id": 3,
-      "name": "Numble 챌린지",
-      "period": ["2023.01", "2023.01"],
-      "description": "따라하기 식의 강의가 아닌,본인이 직접 고민하며 결과물을 만들어가는 과정"
+      "description": "충남대학교 교내 웹 동아리원. 2021~2022의 2년간 임원 활동",
+      "isMore": true
     },
     {
       "id": 0,
@@ -109,9 +101,15 @@
     },
     {
       "id": 5,
-      "name": "디프만 14기",
-      "period": ["2023.08", "진행중"],
-      "description": "디프만 14기 인사부 운영진으로 활동, 14기 인원 모집 및 면접 진행, 디프만 14기 웹 페이지 개발"
+      "name": "디프만 14기 운영진",
+      "period": ["2023.08", "2024.02"],
+      "description": "디프만 14기 인사부 운영진으로 활동, 14기 인원 모집 및 면접 진행, 디프만 14기 웹 페이지 개발\n10MM팀 팀장 및 프론트엔드 개발자로 활동"
+    },
+    {
+      "id": 6,
+      "name": "글쓰는 또라이(글또) 활동",
+      "period": ["2024.10", "진행중"],
+      "description": "글쓰는 또라이(글또) 활동 중"
     }
   ],
 
@@ -145,7 +143,7 @@
       "name": "주니어 창의작품 경진대회 장려상",
       "date": "2022.06.08",
       "organizer": "충남대학교 컴퓨터공학과",
-      "description": "SCRAP 프로젝트로 참가하여 장려상 수상"
+      "description": "SCRAP 프로젝트로 참가, 장려상 수상"
     },
     {
       "id": 1,
@@ -174,6 +172,13 @@
       "date": "2023.08.20",
       "organizer": "Junction Asia",
       "description": "”autoWaste” 프로젝트로 JAKA track 2nd winner 수상"
+    },
+    {
+      "id": 5,
+      "name": "Depromeet 14th 최우수상",
+      "date": "2024.01.22",
+      "organizer": "Depromeet",
+      "description": "IT 연합 동아리 Depromeet 14기에서 ”10MM” 프로젝트로 최우수상 수상"
     }
   ],
   "openSource": [
