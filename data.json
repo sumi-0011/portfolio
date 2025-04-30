@@ -72,7 +72,7 @@
       "webUrl": "https://thumbnail.ssumi.space/",
       "repoUrl": "https://github.com/sumi-0011/Thumbnail-Maker",
       "isTeam": false,
-      "period": ["2025.12", "진행중"],
+      "period": ["2024.12", "진행중"],
       "stack": ["tailwind css", "shadcn/ui", "supabase"],
       "imgSrc": "/images/project/THUMNAIL.png"
     }
