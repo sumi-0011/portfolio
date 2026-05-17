@@ -8,6 +8,8 @@ import Script from "next/script";
 import { useEffect } from "react";
 
 import * as gtag from "../lib/gtag";
+
+import PrintButton from "@/components/PrintButton";
 /**
  * @description SEO를 위해 본인의 정보로 수정해주세요.
  */
@@ -92,6 +94,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <DefaultSeo {...DEFAULT_SEO} />
       <ThemeProvider attribute="class">
         <Component {...pageProps} />
+        <PrintButton />
       </ThemeProvider>
     </>
   );

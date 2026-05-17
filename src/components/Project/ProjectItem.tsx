@@ -19,7 +19,7 @@ const ProjectItem = ({
   return (
     <div className="flex flex-col md:flex-row gap-2 md:gap-0">
       <div className="flex flex-col gap-2">
-        <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
+        <div className="page-break-avoid flex md:flex-col items-center md:items-start mr-4 gap-6">
           {imgSrc && (
             <Image
               src={imgSrc}

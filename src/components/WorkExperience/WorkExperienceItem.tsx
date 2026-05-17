@@ -12,7 +12,7 @@ const WorkExperienceItem = ({ name, position, period, markdown, imgSrc }: WorkEx
 
   return (
     <div className="flex flex-col md:flex-row gap-6 md:gap-0">
-      <div className="flex md:flex-col items-center md:items-start mr-4 gap-6">
+      <div className="page-break-avoid flex md:flex-col items-center md:items-start mr-4 gap-6">
         {imgSrc && (
           <Image
             src={imgSrc}

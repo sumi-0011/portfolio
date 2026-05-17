@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply font-semibold text-3xl py-2;
+    @apply font-semibold text-2xl py-2;
   }
 
   h2 {
@@ -55,10 +55,130 @@
 
   ul,
   ol {
-    @apply flex flex-col gap-2  ml-4 list-outside list-disc;
+    @apply flex flex-col gap-2 my-2 ml-4 list-outside list-disc;
   }
 
   li ul {
     @apply pt-2;
+  }
+
+  hr {
+    @apply my-4;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 14mm 12mm;
+  }
+
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  html.dark,
+  html.dark body {
+    background: #ffffff !important;
+    color: #212529 !important;
+  }
+  .dark *,
+  .dark *::before,
+  .dark *::after {
+    background-color: transparent !important;
+    color: #212529 !important;
+    border-color: #e5e7eb !important;
+  }
+
+  .no-print,
+  footer {
+    display: none !important;
+  }
+
+  .sticky,
+  .fixed {
+    position: static !important;
+  }
+
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 10.5pt;
+    line-height: 1.55;
+  }
+
+  .print-root {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 2rem !important;
+  }
+
+  .resume-title {
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 4mm 0 !important;
+    margin: 0 0 4mm 0 !important;
+    background: none !important;
+    display: block !important;
+    text-align: left;
+    border-bottom: 1px solid #d1d5db;
+  }
+  .resume-title span {
+    display: block !important;
+    color: #212529 !important;
+    font-size: 18pt;
+    font-weight: 700;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+    break-after: avoid-page;
+  }
+  .page-break-avoid {
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+  }
+
+  .markdown a {
+    background: transparent !important;
+    color: #1f2937 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    text-decoration: underline;
+    font-family: inherit !important;
+  }
+  .markdown a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #6b7280;
+    word-break: break-all;
+  }
+  a[href] {
+    word-break: break-word;
+  }
+
+  code {
+    background: #f1f3f5 !important;
+    color: #495057 !important;
+  }
+  blockquote {
+    background: #f8f9fa !important;
+    border-left: 3px solid #adb5bd;
+    padding: 8px 12px !important;
+    margin: 6px 0 !important;
+  }
+
+  img,
+  svg {
+    max-width: 100% !important;
+    height: auto !important;
+    page-break-inside: avoid;
   }
 }

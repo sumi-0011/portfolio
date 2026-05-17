@@ -8,7 +8,7 @@
     "contact": [
       { "id": 0, "name": "Email", "href": "selina2000@naver.com", "isEmail": true },
       { "id": 1, "name": "Github", "href": "https://github.com/sumi-0011" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@sumi-0011" }
+      { "id": 2, "name": "Blog", "href": "https://blog.ssumi.space/blog" }
     ]
   },
 
@@ -17,22 +17,17 @@
       "id": "ADENA",
       "name": "(주)아데나소프트웨어",
       "position": "페이먼츠 개발팀 / 프론트엔드 개발자",
-      "period": ["2023.09", "재직중 / 1년 3개월"]
+      "period": ["2023.09", "2025.06"]
+    },
+    {
+      "id": "EXEM",
+      "name": "엑셈(EXEM)",
+      "position": "AI플랫폼팀·LLM플랫폼팀 / 프론트엔드 개발자",
+      "period": ["2025.07", "재직중 / 11개월"]
     }
   ],
 
   "project": [
-    {
-      "id": "10MM",
-      "name": "10MM(십분만)",
-      "description": "하루 10분으로 시작하는 습관",
-      "webUrl": "",
-      "repoUrl": "https://github.com/depromeet/10mm-client-web",
-      "isTeam": true,
-      "period": ["2023.09", "2024.02"],
-      "stack": ["Next.js", "TypeScript", "Framer motion", "Jest", "Panda Css"],
-      "imgSrc": "/images/project/10MM.webp"
-    },
     {
       "id": "NA_LAB",
       "name": "na lab",
@@ -108,8 +103,8 @@
     {
       "id": 6,
       "name": "글쓰는 또라이(글또) 활동",
-      "period": ["2024.10", "진행중"],
-      "description": "글쓰는 또라이(글또) 활동 중"
+      "period": ["2024.10", "2025.03"],
+      "description": "글쓰는 또라이(글또) 10기 활동"
     }
   ],
 
