@@ -6,8 +6,7 @@ export const config = {
   },
 };
 
-// portfolio-sumi-0011.vercel.app은 예전 빌드에 묶여 있어 /sub/* 가 404
-const SITE_URL = "https://portfolio-sumi0011s-projects.vercel.app";
+const SITE_URL = "https://portfolio.ssumi.space";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (process.env.NODE_ENV !== "development") {
