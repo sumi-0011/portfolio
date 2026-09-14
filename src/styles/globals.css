@@ -94,6 +94,7 @@
   }
 
   .no-print,
+  .resume-title,
   footer {
     display: none !important;
   }
@@ -115,23 +116,6 @@
     margin: 0 !important;
     padding: 0 !important;
     gap: 2rem !important;
-  }
-
-  .resume-title {
-    height: auto !important;
-    min-height: 0 !important;
-    padding: 4mm 0 !important;
-    margin: 0 0 4mm 0 !important;
-    background: none !important;
-    display: block !important;
-    text-align: left;
-    border-bottom: 1px solid #d1d5db;
-  }
-  .resume-title span {
-    display: block !important;
-    color: #212529 !important;
-    font-size: 18pt;
-    font-weight: 700;
   }
 
   h1,
