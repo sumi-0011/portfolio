@@ -1,41 +1,96 @@
 {
   "resumeTitle": {
-    "title": "끊임없이 도전하는 프론트엔드 개발자"
+    "title": "고객이 원한 결과를 만드는 프론트엔드 개발자"
   },
-
   "information": {
     "name": "변수미",
     "contact": [
-      { "id": 0, "name": "Email", "href": "selina2000@naver.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/sumi-0011" },
-      { "id": 2, "name": "Blog", "href": "https://blog.ssumi.space/blog" }
+      {
+        "id": 0,
+        "name": "Email",
+        "href": "selina2000@naver.com",
+        "isEmail": true
+      },
+      {
+        "id": 1,
+        "name": "Github",
+        "href": "https://github.com/sumi-0011"
+      },
+      {
+        "id": 2,
+        "name": "Blog",
+        "href": "https://blog.ssumi.space/blog"
+      }
     ]
   },
-
   "workExperience": [
     {
       "id": "ADENA",
       "name": "(주)아데나소프트웨어",
       "position": "페이먼츠 개발팀 / 프론트엔드 개발자",
-      "period": ["2023.09", "2025.06"]
+      "period": [
+        "2023.09",
+        "2025.06"
+      ]
     },
     {
       "id": "EXEM",
       "name": "엑셈(EXEM)",
-      "position": "AI플랫폼팀·LLM플랫폼팀 / 프론트엔드 개발자",
-      "period": ["2025.07", "재직중 / 1년 2개월"]
+      "position": "LLM플랫폼팀 / 프론트엔드 개발자 · FE 파트 리딩",
+      "period": [
+        "2025.07",
+        "재직중 / 1년 2개월"
+      ]
     }
   ],
-
   "project": [
+    {
+      "id": "TRAIL",
+      "name": "Trail",
+      "description": "일행끼리만 사진과 기록을 남기는 폐쇄형 그룹 여행 기록 앱.",
+      "webUrl": "https://mm-log.vercel.app",
+      "isTeam": false,
+      "period": [
+        "2026.05",
+        "진행중"
+      ],
+      "stack": [
+        "Expo",
+        "React Native",
+        "Next.js",
+        "FastAPI",
+        "Tauri"
+      ]
+    },
+    {
+      "id": "PALLANG",
+      "name": "팔랑 (Pallang)",
+      "description": "넥스터즈 29기 팀 프로젝트로 만든 독서 기록 앱.",
+      "repoUrl": "https://github.com/Nexters/pallang-client",
+      "webUrl": "https://apps.apple.com/kr/app/pallang-%ED%8C%94%EB%9E%91/id6796140451",
+      "isTeam": true,
+      "period": [
+        "2026.07",
+        "2026.08"
+      ],
+      "stack": [
+        "Capacitor",
+        "Storybook",
+        "Tailwind CSS",
+        "orval",
+        "Base UI"
+      ]
+    },
     {
       "id": "NA_LAB",
       "name": "na lab",
       "description": "동료의 익명 피드백으로 자신의 성향과 장단점 등을 파악해요.\n나의 강점은 살리고, 약점은 보완하기 위한 익명의 피드백 수집 및 통계 서비스.",
-      "webUrl": "https://www.nalab.me/",
       "repoUrl": "https://github.com/depromeet/na-lab-client",
       "isTeam": true,
-      "period": ["2023.05", "진행중"],
+      "period": [
+        "2023.05",
+        "진행중"
+      ],
       "stack": [
         "Next.js",
         "TypeScript",
@@ -56,8 +111,15 @@
       "webUrl": "https://www.gitanimals.org/en_US",
       "repoUrl": "https://github.com/git-goods/gitanimals",
       "isTeam": true,
-      "period": ["2023.05", "진행중"],
-      "stack": ["Next.js", "TypeScript", "Panda css"],
+      "period": [
+        "2023.05",
+        "진행중"
+      ],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Panda css"
+      ],
       "imgSrc": "/images/project/GIT_ANIMALS.webp"
     },
     {
@@ -67,56 +129,87 @@
       "webUrl": "https://thumbnail.ssumi.space/",
       "repoUrl": "https://github.com/sumi-0011/Thumbnail-Maker",
       "isTeam": false,
-      "period": ["2024.12", "진행중"],
-      "stack": ["tailwind css", "shadcn/ui", "supabase"],
+      "period": [
+        "2024.12",
+        "진행중"
+      ],
+      "stack": [
+        "tailwind css",
+        "shadcn/ui",
+        "supabase"
+      ],
       "imgSrc": "/images/project/THUMNAIL.png"
     }
   ],
-
   "activity": [
     {
       "id": 2,
       "name": "테오의 스프린트 14기 ",
-      "period": ["2023.02", "2023.02"],
+      "period": [
+        "2023.02",
+        "2023.02"
+      ],
       "description": "시니어 개발자 테오가 주최하는 5일 동안의 구글 스프린트 활동",
       "isMore": true
     },
     {
       "id": 1,
       "name": "Probrain 동아리",
-      "period": ["2019.04", "2023.02"],
+      "period": [
+        "2019.04",
+        "2023.02"
+      ],
       "description": "충남대학교 교내 웹 동아리원. 2021~2022의 2년간 임원 활동",
       "isMore": true
     },
     {
       "id": 0,
       "name": "디프만 13기",
-      "period": ["2023.04", "2023.07"],
+      "period": [
+        "2023.04",
+        "2023.07"
+      ],
       "description": "'디자이너와 프로그래머가 만났을 때', 16주에 걸쳐 서비스 기획부터 론칭까지 함께 경험하는 성장추구형 커뮤니티에서 프론트엔드 개발자로 활동\n디프만 13기에서 대상 수상 \n빠른 1차 MVP 배포 후 2차 MVP 배포를 통해 정식 출시 3일 만에 사용자 1300명 달성"
     },
     {
       "id": 5,
       "name": "디프만 14기 운영진",
-      "period": ["2023.08", "2024.02"],
+      "period": [
+        "2023.08",
+        "2024.02"
+      ],
       "description": "디프만 14기 인사부 운영진으로 활동, 14기 인원 모집 및 면접 진행, 디프만 14기 웹 페이지 개발\n10MM팀 팀장 및 프론트엔드 개발자로 활동"
     },
     {
       "id": 6,
       "name": "글쓰는 또라이(글또) 활동",
-      "period": ["2024.10", "2025.03"],
+      "period": [
+        "2024.10",
+        "2025.03"
+      ],
       "description": "글쓰는 또라이(글또) 10기 활동"
+    },
+    {
+      "id": "7",
+      "name": "넥스터즈(NEXTERS) 29기",
+      "period": [
+        "2026.07",
+        "2026.08"
+      ],
+      "description": "IT 연합 동아리 넥스터즈 29기 프론트엔드 개발자, 최우수상 수상"
     }
   ],
-
   "education": [
     {
       "id": 0,
       "name": "충남대학교",
-      "period": ["2019.03", "2023.02"],
+      "period": [
+        "2019.03",
+        "2023.02"
+      ],
       "description": "컴퓨터공학과 전공"
     }
   ],
-
   "certificate": [
     {
       "id": 0,
@@ -131,7 +224,6 @@
       "organizer": "ETS"
     }
   ],
-
   "award": [
     {
       "id": 0,
@@ -174,6 +266,20 @@
       "date": "2024.01.22",
       "organizer": "Depromeet",
       "description": "IT 연합 동아리 Depromeet 14기에서 ”10MM” 프로젝트로 최우수상 수상"
+    },
+    {
+      "id": "6",
+      "name": "NEXTERS 29th 최우수상",
+      "date": "2026.08",
+      "organizer": "NEXTERS",
+      "description": "IT 연합 동아리 넥스터즈 29기에서 팔랑 프로젝트로 최우수상 수상"
+    },
+    {
+      "id": "7",
+      "name": "엑셈 땡큐 어워즈 '조언.bot' 부문",
+      "date": "2025.12",
+      "organizer": "엑셈",
+      "description": "코드 리뷰·기술 공유로 동료 추천을 받아 수상"
     }
   ],
   "openSource": [

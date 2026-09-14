@@ -1,0 +1,5 @@
+- 일행끼리만 사진과 기록을 남기는 **폐쇄형 그룹 여행 기록 앱**을 웹·모바일·데스크톱으로 개발
+- Next.js 풀스택으로 시작해, 앱이 본체가 되도록 웹은 관문과 백엔드 역할로 줄이고 **Expo(React Native) 앱 중심 구조로 전환**
+- Next.js API를 **FastAPI 백엔드로 점진 이전**(strangler 방식, API 57개)
+- MMKV 도입으로 앱 콜드 부팅 시 첫 저장소 읽기 **579.8ms → 0.012ms**
+- iOS TestFlight와 Android Play 배포 파이프라인 구성, Tauri 기반 데스크톱 앱(Trail Desk) 개발

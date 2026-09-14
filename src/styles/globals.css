@@ -141,7 +141,8 @@
     page-break-after: avoid;
     break-after: avoid-page;
   }
-  .page-break-avoid {
+  /* flex 행의 컬럼 자체에 avoid를 걸면 Chrome이 행 전체를 다음 페이지로 밀어 빈 공간이 생김 → 안쪽 블록에만 적용 */
+  .page-break-avoid > * {
     page-break-inside: avoid;
     break-inside: avoid-page;
   }
