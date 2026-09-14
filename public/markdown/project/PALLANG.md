@@ -1,4 +1,0 @@
-- IT 연합 동아리 넥스터즈(NEXTERS) 29기 팀 프로젝트, **최우수상** 수상
-- Storybook·디자인 토큰·아이콘·공통 Button 등 **디자인 시스템 기반과 팀 컨벤션 문서** 셋업
-- Capacitor로 웹을 **iOS·Android 앱**으로 감싸고 AAB 빌드 파이프라인 구성
-- orval 기반 API 클라이언트 생성, 웹·네이티브 카카오 로그인과 Apple 로그인 연동

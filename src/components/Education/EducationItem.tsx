@@ -8,14 +8,12 @@ const EducationItem = ({
   period: string[];
 }) => {
   return (
-    <div className="page-break-avoid flex flex-col md:flex-row gap-6 md:gap-0">
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-col">
-          <h3>{name}</h3>
-          <span>{`${period[0]}${period[1] ? " - " + period[1] : ""}`}</span>
-        </div>
-        <span className="whitespace-pre-wrap">{`${description}`}</span>
+    <div className="page-break-avoid text-sm">
+      <div className="flex flex-wrap items-baseline gap-x-2">
+        <span className="font-semibold">{name}</span>
+        <span className="text-GRAY_HEAVY">{`${period[0]}${period[1] ? " - " + period[1] : ""}`}</span>
       </div>
+      <p className="text-GRAY_HEAVY">{description}</p>
     </div>
   );
 };

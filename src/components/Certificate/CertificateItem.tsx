@@ -8,14 +8,9 @@ const CertificateItem = ({
   organizer: string;
 }) => {
   return (
-    <div className="page-break-avoid flex flex-col md:flex-row gap-6 md:gap-0">
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-col">
-          <h3>{name}</h3>
-          <span>{date}</span>
-        </div>
-        <span>{organizer}</span>
-      </div>
+    <div className="page-break-avoid text-sm flex flex-wrap items-baseline gap-x-2">
+      <span className="font-semibold">{name}</span>
+      <span className="text-GRAY_HEAVY">{`${organizer} · ${date}`}</span>
     </div>
   );
 };

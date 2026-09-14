@@ -63,25 +63,6 @@
       ]
     },
     {
-      "id": "PALLANG",
-      "name": "팔랑 (Pallang)",
-      "description": "넥스터즈 29기 팀 프로젝트로 만든 독서 기록 앱.",
-      "repoUrl": "https://github.com/Nexters/pallang-client",
-      "webUrl": "https://apps.apple.com/kr/app/pallang-%ED%8C%94%EB%9E%91/id6796140451",
-      "isTeam": true,
-      "period": [
-        "2026.07",
-        "2026.08"
-      ],
-      "stack": [
-        "Capacitor",
-        "Storybook",
-        "Tailwind CSS",
-        "orval",
-        "Base UI"
-      ]
-    },
-    {
       "id": "NA_LAB",
       "name": "na lab",
       "description": "동료의 익명 피드백으로 자신의 성향과 장단점 등을 파악해요.\n나의 강점은 살리고, 약점은 보완하기 위한 익명의 피드백 수집 및 통계 서비스.",
@@ -89,7 +70,7 @@
       "isTeam": true,
       "period": [
         "2023.05",
-        "진행중"
+        "2023.11"
       ],
       "stack": [
         "Next.js",
@@ -272,7 +253,7 @@
       "name": "NEXTERS 29th 최우수상",
       "date": "2026.08",
       "organizer": "NEXTERS",
-      "description": "IT 연합 동아리 넥스터즈 29기에서 팔랑 프로젝트로 최우수상 수상"
+      "description": "IT 연합 동아리 넥스터즈 29기 팀 프로젝트로 최우수상 수상"
     },
     {
       "id": "7",

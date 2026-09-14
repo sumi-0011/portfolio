@@ -6,7 +6,8 @@ import { DataProps } from "@/types";
 const Project = ({ project }: Pick<DataProps, "project">) => {
   return (
     <>
-      <div>
+      {/* 경력 중심 PDF에서는 제외 */}
+      <div className="no-print">
         <SectionTitle>Team Project</SectionTitle>
         <div className="flex flex-col gap-24">
           {[...project]

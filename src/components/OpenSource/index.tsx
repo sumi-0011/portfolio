@@ -8,7 +8,7 @@ const OpenSource = ({ openSource }: Pick<DataProps, "openSource">) => {
   return (
     <div>
       <SectionTitle>OpenSource Contribute</SectionTitle>
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-3">
         {[...openSource].reverse().map((item) => (
           <OpenSourceItem key={item.id} {...item} />
         ))}

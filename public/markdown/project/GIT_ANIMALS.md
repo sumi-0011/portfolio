@@ -1,5 +1,5 @@
-- GitHub 잔디를 이용해 포인트를 얻고, 펫을 모아 GitHub를 꾸미는 서비스
-- 사용자와 GitHub Issue을 통해 소통하며 꾸준히 서비스 개선 진행중 (서비스 내 피드백 폼을 GitHub issue과 연결 -> Blog)
-- 총 사용자 8000명대 / GitHub Star 1.8k
-- 외국 사용자를 타겟으로 하기 위해 다국어 기능 제공
-- remix(admin), next.js(main)을 모노레포로 구성, 공통적으로 사용하는 api, ui 등을 package로 분리하여 사용
+- GitHub 잔디로 포인트를 얻고, 펫을 모아 GitHub를 꾸미는 서비스
+- 서비스 안 피드백 폼을 GitHub Issue와 연결해, 사용자 의견을 받아 꾸준히 개선 중
+- 총 사용자 8,000명대, GitHub Star 1.8k
+- 해외 사용자를 위한 다국어 지원
+- Remix(admin)·Next.js(main)를 모노레포로 구성하고, 공통 API·UI를 패키지로 분리
